@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+    <title>Pokemon Game</title>
+</head>
+
+<body background="assets/images/pokeball-background.jpg">
+
+    <div class="container container-fluid">
+        <div class="jumbotron jumbotron-fluid">
+            <h1 class="text-center">
+                <strong>Pokemon Collector!</strong>
+                <hr>
+            </h1>
+            <p class="text-center">The appraiser has appraised your Pokemon's, you do not know which number each Pokemon
+                is worth click on a Pokemon to find out its value. Adding the Pokemon's together to form the appraiser's
+                exact value and the appraiser will pay you out, if you go over his value you are not worthy and will
+                have to start again if you want to make a successful trade. Good Luck!!</p>
+        </div>
+
+        <div class="container container-fluid text-center">
+            <h3>Appraiser's Total: <span id="appraiserTotal"></span></h3>
+            <h4>Your appraisal: <span id="userAppraisal"></span></h4>
+            <p>Wins: <span id="playerWins"></span></p>
+            <p>Losses: <span id="playerLosses"></span></p>
+        </div>
+        <div class="card-deck">
+            <div class="card">
+                <img src="assets/images/Flareon.png" id="abtn" class="crystal crystalValue" alt="Amethyst Crystal">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Flareon</h5>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/images/Jolteon.png" id="dbtn" class="crystal crystalValue1" alt="Diamond Crystal">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Jolteon</h5>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/images/Umbreon.png" id="ebtn" class="crystal crystalValue2" alt="Emerald Crystal">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Umbreon</h5>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/images/Vaporeon.png" id="tbtn" class="crystal crystalValue3" alt="Topaz">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Vaporeon</h5>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="assets/js/hanna.js"></script>
+</body>
+
+</html>
